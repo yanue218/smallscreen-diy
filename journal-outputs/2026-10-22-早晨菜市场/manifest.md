@@ -27,3 +27,11 @@
 
 - 实际输出与清单差异：天蓝基础纸出现两张（一横一竖），主导色呼应更强，判定可接受。
 - 尺寸：1024×1536 px。未做 A4/A6 实体规格校验，如需精确打印规格请另行说明。
+
+## 拼贴 · collage.png（make-tape-collage skill）
+
+- 生成工具：make-tape-collage skill（GitHub: sherlyryn/make-tape-collage），描述生成模式（description-only）
+- 主题：energetic fresh morning at a food market —— 菜篮装新鲜蔬果的胶带拼贴，条纹遮阳棚带做环境呼应
+- 配色：浅天蓝 + 植物绿 + 柠檬黄 + 暖奶油，一小点珊瑚做唯一强调色
+- 规格：1024×1536 px（工具最接近 3:4 竖版的选项，实际 2:3）；描述生成模式默认无文字
+- 实际生成提示词：3:4 portrait washi-tape collage poster. Create a sparse washi-tape collage about an energetic fresh morning at a food market. Subject: one compact tape-built motif of a woven market basket filled with fresh produce — leafy greens and one carrot with its feathery top — placed in the lower-middle with restrained asymmetry; add one quiet environmental echo: a narrow striped awning band suggestion behind and above the basket, and a soft ground swatch beneath it.（完整提示词见会话记录，结构遵循 skill 的 description-generation recipe）
