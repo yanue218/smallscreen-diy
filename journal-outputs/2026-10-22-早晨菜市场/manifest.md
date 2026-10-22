@@ -35,3 +35,9 @@
 - 配色：浅天蓝 + 植物绿 + 柠檬黄 + 暖奶油，一小点珊瑚做唯一强调色
 - 规格：1024×1536 px（工具最接近 3:4 竖版的选项，实际 2:3）；描述生成模式默认无文字
 - 实际生成提示词：3:4 portrait washi-tape collage poster. Create a sparse washi-tape collage about an energetic fresh morning at a food market. Subject: one compact tape-built motif of a woven market basket filled with fresh produce — leafy greens and one carrot with its feathery top — placed in the lower-middle with restrained asymmetry; add one quiet environmental echo: a narrow striped awning band suggestion behind and above the basket, and a soft ground swatch beneath it.（完整提示词见会话记录，结构遵循 skill 的 description-generation recipe）
+
+## 抠图 · basket-transparent.png
+
+- 来源：collage.png 中的菜篮子主体（藤篮 + 蔬果），AI matting 抠出
+- 处理：抠图后经纯 Python PNG 工具裁掉透明边（1024×1536 → 661×768，四周留约 2% 边），RGBA 透明底
+- 用途：可直接作为贴图用于 PPT / 海报 / 手帐排版叠加
